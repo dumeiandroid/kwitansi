@@ -203,7 +203,7 @@
                 document.getElementById('catatan-section').classList.add('hidden');
             }
 
-            const verificationUrl = `https://lidan.co.id/sign/kwitansi?token=${data.x_10}`;
+            const verificationUrl = `https://sign.lidan.co.id/kwitansi?token=${data.x_10}`;
             
             new QRCode(document.getElementById("qrcode"), {
                 text: verificationUrl,
